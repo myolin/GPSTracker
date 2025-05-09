@@ -31,9 +31,3 @@ and the trip start time, providing users with comprehensive information about th
 
 <img src="https://github.com/myolin/GPSTracker/blob/main/Screenshot/Screenshot-3.png" alt="Screenshot-3" width="250" height="500"/>
 
-
-<img src="https://github.com/myolin/CTABusTracker/blob/master/Screenshot/Screenshot-5.png" alt="Screenshot-5" width="250" height="500"/>
-
-<img src="https://github.com/myolin/CTABusTracker/blob/master/Screenshot/Screenshot-6.png" alt="Screenshot-6" width="250" height="500"/>
-
-<img src="https://github.com/myolin/CTABusTracker/blob/master/Screenshot/Screenshot-7.png" alt="Screenshot-7" width="250" height="500"/>
