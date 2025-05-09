@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">FollowMe</string>
+    <string name="follow">Follow</string>
+    <string name="me">Me</string>
+    <string name="start_trip">Start Trip</string>
+    <string name="follow_trip">Follow Trip</string>
+    <string name="title_activity_trip_lead">TripLeadActivity</string>
+    <string name="trip_lead">Trip Lead</string>
+    <string name="title_activity_trip_follower">TripFollowerActivity</string>
+    <string name="following">Following</string>
+    <string name="max_name_length">100</string>
+    <string name="max_cred_length">12</string>
+    <string name="toast_empty_field">Data Fields cannot be empty!</string>
+    <string name="awaiting_gps">Awaiting GPS</string>
+    <string name="tracking_paused">Tracking Paused</string>
+    <string name="trip_ended">Trip Ended</string>
+    <string name="follower_no_network">NO NETWORK CONNECTION\nLocation data not received</string>
+    <string name="lead_no_network">NO NETWORK CONNECTION\nNot all data maybe be sent</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="generate">Generate</string>
+    <string name="save_crendentials">Save Credentials</string>
+
+    <string name="hint_username">User Name</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_email">Email</string>
+
+    <string name="dialog_title">Follow Me</string>
+    <string name="dialog_login_body">Please login to continue</string>
+    <string name="dialog_register_body">Please register to continue</string>
+    <string name="dialog_registration_successful">Follow Me - Registration Successful</string>
+    <string name="dialog_registration_fail">Follow Me - Registration Failed</string>
+
+    <string name="dialog_login_fail_title">User Credentials Verification Failed</string>
+    <string name="dialog_login_fail_body">Invalid User Name or Password. Please try again.</string>
+
+    <string name="dialog_start_trip_body">Please provide a Trip ID for this journey.
+                Share this ID with your friends.</string>
+    <string name="dialog_empty_trip_id">Trip Id cannot be empty.</string>
+    <string name="dialog_follow_trip_body">Enter the Trip ID to follow:</string>
+</resources>

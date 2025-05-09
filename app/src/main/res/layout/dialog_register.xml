@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_first_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/register_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="@string/max_name_length"
+            android:hint="@string/hint_first_name"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_last_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/input_layout_first_name"
+        app:layout_constraintStart_toStartOf="@+id/input_layout_first_name"
+        app:layout_constraintTop_toBottomOf="@+id/input_layout_first_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/register_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="@string/max_name_length"
+            android:hint="@string/hint_last_name"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/input_layout_first_name"
+        app:layout_constraintStart_toStartOf="@+id/input_layout_first_name"
+        app:layout_constraintTop_toBottomOf="@+id/input_layout_last_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="@string/max_name_length"
+            android:hint="@string/hint_email"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/input_layout_first_name"
+        app:layout_constraintStart_toStartOf="@+id/input_layout_first_name"
+        app:layout_constraintTop_toBottomOf="@+id/input_layout_email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/register_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="@string/max_cred_length"
+            android:hint="@string/hint_username"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/input_layout_first_name"
+        app:layout_constraintStart_toStartOf="@+id/input_layout_first_name"
+        app:layout_constraintTop_toBottomOf="@+id/input_layout_username"
+        app:errorIconDrawable="@null"
+        app:endIconMode="password_toggle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:maxLength="@string/max_cred_length"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
